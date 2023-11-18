@@ -12,6 +12,8 @@
 <h1 align="center">
 Listado de Auto
 </h1>
+<h2>Registrar nuevo</h2>
+<a href="ControladorAuto?accion=registrar">Registrar</a>
 <table align="center">
 <tr>
 <th>Código</th>
