@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ControladorAuto</servlet-name>
+  	<display-name>ControladorAuto</display-name>
+  	<description></description>
+  	<servlet-class>Controlador.ControladorAuto</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ControladorAuto</servlet-name>
+  	<url-pattern>/ControladorAuto</url-pattern>
+  </servlet-mapping>
 </web-app>
